@@ -1,0 +1,142 @@
+.header
+{
+    width: 100%;
+    height: auto;
+    background-color: #1B2330;
+    padding: 70px 80px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    & > .header__navbar
+    {
+        width: 270px;
+        height: auto;
+        
+
+        & > ul 
+        {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            list-style: none;
+            
+
+            & > li 
+            {
+                text-align: center;
+                width: 65px;
+                
+
+                & > a 
+                {
+                    text-decoration: none;
+                    color: #fff;
+                    line-height: 50px;
+                    font-family: 'Raleway';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #FFFFFF;
+                }
+
+                & > .line
+                {
+                    margin-top: -8px;
+                    width: 0px;
+                    height: 2px;
+                    background-color: #48BCD2;
+                    transition: 0.4s;
+                }
+            }
+
+            & > li:hover .line
+            {
+                width: 65px;
+            }
+
+            
+        }
+    }
+}
+
+@media screen and (max-width:767.98px)
+{
+    .header
+    {
+        padding: 40px 40px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width:575.98px)
+{
+    .header
+    {
+        padding: 40px 15px;
+        box-sizing: border-box;
+
+        & > .header__logo
+        {
+
+            & > img 
+            {
+                width: 80px;
+            }
+        }
+
+        & > .header__navbar
+        {
+            width: 180px;
+            height: auto;
+            
+    
+            & > ul 
+            {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                list-style: none;
+                
+    
+                & > li 
+                {
+                    text-align: center;
+                    width: 45px;
+                    
+    
+                    & > a 
+                    {
+                        text-decoration: none;
+                        color: #fff;
+                        line-height: 25px;
+                        font-family: 'Raleway';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 13px;
+                        color: #FFFFFF;
+                    }
+    
+                    & > .line
+                    {
+                        margin-top: -4px;
+                        width: 0px;
+                        height: 2px;
+                        background-color: #48BCD2;
+                        transition: 0.4s;
+                    }
+                }
+    
+                & > li:hover .line
+                {
+                    width: 45px;
+                }
+    
+                
+            }
+        }
+
+        
+    }
+}

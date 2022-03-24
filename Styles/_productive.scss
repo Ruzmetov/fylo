@@ -1,0 +1,312 @@
+.section2-productive
+{
+    width: 100%;
+    height: auto;
+    padding: 100px 20px;
+    box-sizing: border-box;
+    background-color: #181F2B;
+
+
+    & > .productive__info
+    {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        & > .productive__photo
+        {
+            width: auto;
+    
+        }
+    
+        & > .productive__descr
+        {
+            width: 600px;
+            height: auto;
+            margin-top: 100px;
+    
+            & > h1 
+            {
+                width: 350px;
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 50px;
+                color: #FFFFFF;
+            }
+    
+            & > p 
+            {
+                width: auto;
+                font-family: 'OpenSans';
+                font-size: 16px;
+                line-height: 24px;
+                color: #FFFFFF;
+                margin: 10px auto;
+            }
+    
+            & > a 
+            {
+                text-decoration: none;
+    
+                & > h5 
+                {
+                    margin-top: 20px;
+                    font-family: 'OpenSans';
+                    font-size: 16px;
+                    color: #fff;
+                    font-weight: 100;
+                }
+    
+                & > .line2
+                {
+                    margin-top: 3px;
+                    width: 0px;
+                    height: 2px;
+                    background-color: #48BCD2;
+                    transition: 0.4s;
+                }
+            }
+    
+            & > a:hover .line2
+            {
+                margin-top: 3px;
+                width: 150px;
+                background-color: #48BCD2;
+            }
+    
+            & > a:hover h5 
+            {
+                color: #48BCD2;
+            }
+        }
+    }
+
+    & > .productive__cards
+    {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-top: 130px;
+        padding-bottom: 260px;
+        box-sizing: border-box;
+
+        & > .card 
+        {
+            width: 350px;
+            height: auto;
+            background: #202A3C;
+            box-shadow: 5px 5px 8px rgba(56, 56, 56, 0.0991282);
+            border-radius: 3.93258px;
+            padding: 40px 24px 25px 24px;
+            box-sizing: border-box;
+            margin: 20px 20px;
+
+            & > p 
+            {
+                font-family: 'OpenSans';
+                font-size: 14px;
+                line-height: 21px;
+                color: #FFFFFF;
+            }
+
+            & > .card__info
+            {
+                width: 135px;
+                margin-top: 25px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+                & > img 
+                {
+                    height: 25px;
+                }
+
+                & > .card__name
+                {
+                    & > h5 
+                    {
+                        font-family: 'OpenSans';
+                        font-size: 10px;
+                        letter-spacing: 0.5px;
+                        color: #FFFFFF;
+                        font-weight: 100;
+                    }
+
+                    & > p 
+                    {
+                        font-family: 'OpenSans';
+                        font-size: 7px;
+                        letter-spacing: 0.5px;                       
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:767.98px)
+{
+    .section2-productive
+    {
+        width: 100%;
+        height: auto;
+        padding: 20px 20px;
+        box-sizing: border-box;
+        background-color: #181F2B;
+    
+    
+        & > .productive__info
+        {
+    
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+    
+            & > .productive__photo
+            {
+                width: 100%;
+        
+            }
+        
+            & > .productive__descr
+            {
+                width: auto;
+                height: auto;
+                margin-top: 100px;
+                text-align: center;
+        
+                & > h1 
+                {
+                    width: auto;
+                    font-family: 'Raleway';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 32px;
+                    line-height: 50px;
+                    color: #FFFFFF;
+                    margin-bottom: 20px;
+                }
+        
+                & > p 
+                {
+                    width: auto;
+                    font-family: 'OpenSans';
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #FFFFFF;
+                    margin: 10px auto;
+                }
+        
+                & > a 
+                {
+                    width: 150px;
+                    display: block;
+                    margin: auto;
+                    text-decoration: none;
+        
+                    & > h5 
+                    {
+                        margin-top: 20px;
+                        font-family: 'OpenSans';
+                        font-size: 16px;
+                        color: #fff;
+                        font-weight: 100;
+                    }
+        
+                    & > .line2
+                    {
+                        margin-top: 3px;
+                        width: 0px;
+                        height: 2px;
+                        background-color: #48BCD2;
+                        transition: 0.4s;
+                    }
+                }
+        
+                & > a:hover .line2
+                {
+                    margin-top: 3px;
+                    width: 150px;
+                    background-color: #48BCD2;
+                }
+        
+                & > a:hover h5 
+                {
+                    color: #48BCD2;
+                }
+            }
+        }
+    
+        & > .productive__cards
+        {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding-top: 60px;
+            box-sizing: border-box;
+    
+            & > .card 
+            {
+                width: 350px;
+                height: auto;
+                background: #202A3C;
+                box-shadow: 5px 5px 8px rgba(56, 56, 56, 0.0991282);
+                border-radius: 3.93258px;
+                padding: 40px 24px 25px 24px;
+                box-sizing: border-box;
+                margin: 20px 0px;
+    
+                & > p 
+                {
+                    font-family: 'OpenSans';
+                    font-size: 14px;
+                    line-height: 21px;
+                    color: #FFFFFF;
+                }
+    
+                & > .card__info
+                {
+                    width: 135px;
+                    margin-top: 25px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+    
+                    & > img 
+                    {
+                        height: 25px;
+                    }
+    
+                    & > .card__name
+                    {
+                        & > h5 
+                        {
+                            font-family: 'OpenSans';
+                            font-size: 10px;
+                            letter-spacing: 0.5px;
+                            color: #FFFFFF;
+                            font-weight: 100;
+                        }
+    
+                        & > p 
+                        {
+                            font-family: 'OpenSans';
+                            font-size: 7px;
+                            letter-spacing: 0.5px;                       
+                            color: #FFFFFF;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

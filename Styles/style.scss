@@ -1,0 +1,19 @@
+@import 'header';
+@import 'fonts';
+@import 'secure';
+@import 'productive';
+@import 'footer';
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.site
+{
+    max-width: 1440px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
